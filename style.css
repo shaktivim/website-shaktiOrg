@@ -1,0 +1,63 @@
+/* h1{
+    width: 10px;
+} */
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h1{
+    font-weight: 400;
+}
+
+header{
+    display: flex; 
+    /* flex is used to make all the child elements in header to be aligned in a single row */
+    justify-content: space-between;
+    /* Justify content only acts if display type is flex */
+    margin: 0 3rem;
+}
+nav{
+    width: 20rem;
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;    
+}
+
+.showcase-img{
+    width: 95vw;
+    /* width in vw or vh is the relative width to 100% view port of the screen */
+    margin: 1rem;
+}
+
+article{
+    display: flex;
+    margin: 1rem;
+}
+.content{
+    text-align: center;
+    margin-right: 2rem;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    /* justify content :center aligns the contents in center on the x-axis */
+    align-items: center;
+    /* align-items:center aligns the elements in the center on y-axis */
+    font-size: 1.5rem;
+}
