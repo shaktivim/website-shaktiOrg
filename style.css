@@ -11,8 +11,10 @@ header h1{
 
 header{
     display: flex; 
-    /* flex is used to make all the child elements in header to be aligned in a single row */
+    /* flex is used to make all the child elements to be aligned in a single row */
+    /* justify-content: space-around */
     justify-content: space-between;
+    /* justify-content: center; */
     /* Justify content only acts if display type is flex */
     margin: 0 3rem;
 }
